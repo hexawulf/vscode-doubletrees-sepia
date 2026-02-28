@@ -1,0 +1,22 @@
+{
+  "name": "vscode-doubletrees-sepia",
+  "displayName": "DoubleTrees Sepia — Warm Parchment Theme",
+  "description": "A warm parchment/sepia light theme matching the 0xWulf Ghostty config. Optimized for screenshots, PDF documents, and print-friendly contrast.",
+  "version": "1.0.0",
+  "publisher": "hexawulf",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "DoubleTrees Sepia",
+        "uiTheme": "vs",
+        "path": "./themes/doubletrees-sepia-color-theme.json"
+      }
+    ]
+  }
+}
