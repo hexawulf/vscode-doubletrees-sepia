@@ -633,6 +633,61 @@
       "settings": {
         "foreground": "#B83A2E"
       }
+    },
+
+    // ── Vue Single-File Components ──────────────
+    {
+      "name": "Vue SFC block tag (template, script, style)",
+      "scope": [
+        "entity.name.tag.template.html.vue",
+        "entity.name.tag.script.html.vue",
+        "entity.name.tag.style.html.vue"
+      ],
+      "settings": {
+        "foreground": "#B83A2E",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Vue component tag (PascalCase custom elements)",
+      "scope": [
+        "support.class.component.vue",
+        "entity.name.tag.other.vue"
+      ],
+      "settings": {
+        "foreground": "#267878"
+      }
+    },
+    {
+      "name": "Vue directive (v-if, v-for, v-bind, v-on, v-model)",
+      "scope": [
+        "entity.other.attribute-name.html.vue",
+        "meta.directive.vue entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#8B6914"
+      }
+    },
+    {
+      "name": "Vue directive shorthand prefix (: and @)",
+      "scope": [
+        "punctuation.attribute-shorthand.bind.html.vue",
+        "punctuation.attribute-shorthand.event.html.vue"
+      ],
+      "settings": {
+        "foreground": "#996515",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Vue template interpolation punctuation",
+      "scope": [
+        "punctuation.definition.interpolation.begin.html.vue",
+        "punctuation.definition.interpolation.end.html.vue"
+      ],
+      "settings": {
+        "foreground": "#B83A2E"
+      }
     }
   ],
 
